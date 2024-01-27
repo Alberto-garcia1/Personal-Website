@@ -1,5 +1,5 @@
 import React from "react";
-import { Instagram, LinkedIn, GitHub } from "@mui/icons-material";
+import { Instagram, LinkedIn, GitHub, Email } from "@mui/icons-material";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -28,8 +28,15 @@ function Footer() {
         >
           <LinkedIn />
         </a>
+        <a
+          href="https://www.linkedin.com/in/alberto-garcia-98434720a"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Email />
+        </a>
       </div>
-      <p>Copyright ⓒ {year} Alberto Garcia</p>
+      <p>ⓒ {year} Alberto Garcia</p>
     </div>
   );
 }

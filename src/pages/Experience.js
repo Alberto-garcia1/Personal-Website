@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+import { VerticalTimeline }
 function Experience() {
   return (
-    <div>Experience</div>
-  )
+    <VerticalTimeline classname=''/>
+  );
 }
 
-export default Experience
+export default Experience;
+
