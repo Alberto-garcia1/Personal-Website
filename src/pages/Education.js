@@ -16,7 +16,7 @@ function Education() {
     {
       date: "January 2023 - May 2023",
       institution: "Nucamp Coding Bootcamp",
-      certification: "Front-End Web Develpment with Google Cloud",
+      certification: "Front-End Web Development with Google Cloud",
     },
   ];
 

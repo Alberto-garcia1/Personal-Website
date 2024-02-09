@@ -20,9 +20,9 @@ function Navbar() {
         </button>
       </div>
       <div className="links">
-        <Link to="/">Home</Link>
+        <Link to="/Personal-Website">Home</Link>
         <Link to="/projects">Projects</Link>
-        <Link to="/Experience">Education</Link>
+        <Link to="/education">Education</Link>
       </div>
     </div>
   );
