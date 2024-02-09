@@ -4,10 +4,12 @@ import WeatherApp from '../assets/WeatherApp.png';
 export const ProjectList = [
     {
         name: "Keep App",
-        image: KeeperApp
+        image: KeeperApp,
+        skills: "HTML, CSS, JavaScript"
     },
     {
         name: "Weather App",
-        image: WeatherApp
+        image: WeatherApp,
+        skills: "HTML, CSS, JavaScript, React, WeatherAPI"
     }
 ]
