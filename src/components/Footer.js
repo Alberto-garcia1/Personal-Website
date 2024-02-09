@@ -29,7 +29,7 @@ function Footer() {
           <LinkedIn />
         </a>
         <a
-          href="https://www.linkedin.com/in/alberto-garcia-98434720a"
+          href="mailto:albertogarcia2220@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
