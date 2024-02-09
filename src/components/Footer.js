@@ -3,7 +3,7 @@ import { Instagram, LinkedIn, GitHub, Email } from "@mui/icons-material";
 import "../styles/Footer.css";
 
 function Footer() {
-    const year = new Date().getFullYear();
+  const year = new Date().getFullYear();
   return (
     <div className="footer">
       <div className="socialMedia">
