@@ -8,18 +8,20 @@ import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
-  return <div className="App">
-    <Router>
-    <Navbar />
-      <Routes>
-        <Route path="/Personal-Website" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/project/:id" element={<ProjectDisplay />} />
-        <Route path="/education" element={<Education />} />
-      </Routes>
-    <Footer />
-    </Router>
-  </div>;
+  return (
+    <div className="App">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/Personal-Website" element={<Home />} />
+          <Route path="/Personal-Website/projects" element={<Projects />} />
+          <Route path="/Personal-Website/project/:id" element={<ProjectDisplay />} />
+          <Route path="/Personal-Website/education" element={<Education />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
+  );
 }
 
 export default App;
