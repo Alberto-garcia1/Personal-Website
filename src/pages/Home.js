@@ -8,7 +8,7 @@ function Home() {
     <div className="about">
       <h2>Hello My Name Is Alberto</h2>
       <div className="prompt">
-        <p>A software developer with a passion for learning and creating.</p>
+        <p>A software developer with a passion for learning and creating beautiful websites.</p>
         <LinkedIn />
         <MailOutline />
         <GitHub />
