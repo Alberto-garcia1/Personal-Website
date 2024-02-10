@@ -3,10 +3,12 @@ import { Instagram, LinkedIn, GitHub, Email } from "@mui/icons-material";
 import "../styles/Footer.css";
 
 function Footer() {
+  // Creates a constantly updating year date.
   const year = new Date().getFullYear();
   return (
     <div className="footer">
       <div className="socialMedia">
+        {/* Instagram link */}
         <a
           href="https://www.instagram.com/alberto.g8/"
           target="_blank"
@@ -14,6 +16,7 @@ function Footer() {
         >
           <Instagram />
         </a>
+        {/* GitHub link */}
         <a
           href="https://github.com/Alberto-garcia1"
           target="_blank"
@@ -21,6 +24,7 @@ function Footer() {
         >
           <GitHub />
         </a>
+        {/* LinkedIn link */}
         <a
           href="https://www.linkedin.com/in/alberto-garcia-98434720a"
           target="_blank"
@@ -28,6 +32,7 @@ function Footer() {
         >
           <LinkedIn />
         </a>
+        {/* Email link */}
         <a
           href="mailto:albertogarcia2220@gmail.com"
           target="_blank"
@@ -36,6 +41,7 @@ function Footer() {
           <Email />
         </a>
       </div>
+      {/* Copyright statement */}
       <p>ⓒ {year} Alberto Garcia</p>
     </div>
   );

@@ -7,6 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from '@mui/icons-material/School';
 
 function Education() {
+  // Array containing education data
   const educationData = [
     {
       date: "January 2023 - May 2023",
@@ -22,19 +23,21 @@ function Education() {
 
   return (
     <div className="experience">
+      {/* Vertical timeline to display education history */}
       <VerticalTimeline lineColor="#3e497a">
         {educationData.map((item, index) => (
           <VerticalTimelineElement
             key={index}
+            // Add even/odd class for alternating timeline elements
             className={`vertical-timeline-element--education ${
               index % 2 === 0 ? 'even' : 'odd'
             }`}
-            date={item.date}
-            iconStyle={{ background: '#3e497a', color: '#fff' }}
-            icon={<SchoolIcon />}
+            date={item.date} // Display date
+            iconStyle={{ background: '#3e497a', color: '#fff' }} // Style for the timeline icon
+            icon={<SchoolIcon />} // Icon for education events
           >
             <h3 className="vertical-timeline-element-title">{item.institution}</h3>
-            <p>{item.certification}</p>
+            <p>{item.certification}</p> {/* Display certification*/}
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>

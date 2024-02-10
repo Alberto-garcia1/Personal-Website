@@ -11,13 +11,22 @@ function App() {
   return (
     <div className="App">
       <Router>
+        {/* Navbar component to provide navigation */}
         <Navbar />
         <Routes>
+          {/* Route for the Home page */}
           <Route path="/Personal-Website" element={<Home />} />
+          {/* Route for the Projects page */}
           <Route path="/Personal-Website/projects" element={<Projects />} />
-          <Route path="/Personal-Website/project/:id" element={<ProjectDisplay />} />
+          {/* Route for displaying individual project details */}
+          <Route
+            path="/Personal-Website/project/:id"
+            element={<ProjectDisplay />}
+          />
+          {/* Route for the Education page */}
           <Route path="/Personal-Website/education" element={<Education />} />
         </Routes>
+        {/* Footer component to provide footer information */}
         <Footer />
       </Router>
     </div>
