@@ -1,5 +1,7 @@
 import KeeperApp from "../assets/KeeperApp.png";
 import WeatherApp from "../assets/WeatherApp.png";
+import BakeMeACake from "../assets/BakeMeACake.png";
+import NucampSite from "../assets/NucampSite.png";
 
 // Array containing details of different projects
 export const ProjectList = [
@@ -15,4 +17,16 @@ export const ProjectList = [
     skills: "HTML, CSS, JavaScript, React, WeatherAPI",
     link: "https://alberto-garcia1.github.io/weather-app/", // Link to the Weather App project
   },
+  {
+  name: "Rosie Bake Me A Cake",
+  image: BakeMeACake, // Importing the image
+  skills: "HTML, CSS, JavaScript, React, ReactStrap, Material UI",
+  link: "https://alberto-garcia1.github.io/just-cake/", // Link to the Just Cake WebPage
+  },
+  {
+    name: "Nucamp Campsite",
+    image: NucampSite, // Importing the image for the Weather App
+    skills: "HTML, CSS, JavaScript, React, Redux, Json-Server",
+    link: "https://alberto-garcia1.github.io/", // Link to Nucamp Campsite
+  }
 ];
