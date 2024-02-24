@@ -27,6 +27,6 @@ export const ProjectList = [
     name: "Nucamp Campsite",
     image: NucampSite, // Importing the image for the Weather App
     skills: "HTML, CSS, JavaScript, React, Redux, Json-Server",
-    link: "https://alberto-garcia1.github.io/", // Link to Nucamp Campsite
+    link: "https://alberto-garcia1.github.io/nucampsite/", // Link to Nucamp Campsite
   }
 ];
