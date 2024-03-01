@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.f981f65b.css",
-    "main.js": "/Personal-Website/static/js/main.8dc5a45b.js",
+    "main.css": "/Personal-Website/static/css/main.8064c19d.css",
+    "main.js": "/Personal-Website/static/js/main.d3e83baf.js",
     "static/media/NucampSite.png": "/Personal-Website/static/media/NucampSite.c01de2dcfd488a036966.png",
     "static/media/background 1.jpg": "/Personal-Website/static/media/background 1.630ef6a575bacf5cd524.jpg",
     "static/media/WeatherApp.png": "/Personal-Website/static/media/WeatherApp.0e8bd83a05b66ccbbea8.png",
@@ -9,11 +9,11 @@
     "static/media/BakeMeACake.png": "/Personal-Website/static/media/BakeMeACake.63e06a6c33f24df91cb3.png",
     "static/media/Logo.mp4": "/Personal-Website/static/media/Logo.c9871299a6867a9a2cd7.mp4",
     "index.html": "/Personal-Website/index.html",
-    "main.f981f65b.css.map": "/Personal-Website/static/css/main.f981f65b.css.map",
-    "main.8dc5a45b.js.map": "/Personal-Website/static/js/main.8dc5a45b.js.map"
+    "main.8064c19d.css.map": "/Personal-Website/static/css/main.8064c19d.css.map",
+    "main.d3e83baf.js.map": "/Personal-Website/static/js/main.d3e83baf.js.map"
   },
   "entrypoints": [
-    "static/css/main.f981f65b.css",
-    "static/js/main.8dc5a45b.js"
+    "static/css/main.8064c19d.css",
+    "static/js/main.d3e83baf.js"
   ]
 }
