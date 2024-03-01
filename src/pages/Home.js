@@ -5,7 +5,7 @@ import "../styles/Home.css";
 import Logo from "../assets/Logo.mp4";
 
 function Home() {
-  // Style for the profile picture
+  // Style for the logo video
   const videoStyle = {
     width: "350px",
   };

@@ -2,11 +2,11 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #272727;
+  color: #242324;
 }
 
 .image-background {
-  background-color: #272727;
+  background-color: #242324;
 }
 
 .about {
@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #272727;
+  background-color: #242324;
   color: #f0f0f0;
 }
 

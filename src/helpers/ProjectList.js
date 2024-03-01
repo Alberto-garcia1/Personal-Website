@@ -20,7 +20,7 @@ export const ProjectList = [
   {
   name: "Rosie Bake Me A Cake",
   image: BakeMeACake, // Importing the image
-  skills: "HTML, CSS, JavaScript, React, ReactStrap, Material UI",
+  skills: "HTML, CSS, JavaScript, React, ReactStrap, Material UI, DNS from SquareSpace",
   link: "www.rosiebakemeacake.com", // Link to the Just Cake WebPage
   },
   {
