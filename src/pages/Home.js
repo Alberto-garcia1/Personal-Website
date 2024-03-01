@@ -1,19 +1,21 @@
 import React from "react";
 import "../styles/Home.css";
 // import ProfilePic from "../assets/ProfilePic.jpg";
-import Logo from "../assets/Logo.png";
+// import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo.mp4";
 
 function Home() {
   // Style for the profile picture
-  const imageStyle = {
-    width: "250px",
-    borderRadius: "50%",
+  const videoStyle = {
+    width: "350px",
   };
 
   return (
     <div className="home">
       {/* Profile picture */}
-      <img src={Logo} alt="Profile" style={imageStyle} />
+      <div className="image-background">
+      <video src={Logo} alt="Profile" style={videoStyle} autoPlay loop muted/>
+      </div>
       <div className="about">
         <h2>Hello My Name Is Alberto</h2>
         <div className="prompt">

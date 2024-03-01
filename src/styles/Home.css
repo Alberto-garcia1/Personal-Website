@@ -5,6 +5,10 @@
   color: #272727;
 }
 
+.image-background {
+  background-color: #272727;
+}
+
 .about {
   width: 100%;
   height: calc(100vh - 100px);
@@ -22,6 +26,10 @@
   font-size: 80px;
   color: #f0f0f0;
   height: 50px;
+}
+
+h2 {
+  margin-top: 0px;
 }
 
 .about .prompt {
