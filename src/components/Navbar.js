@@ -27,7 +27,7 @@ function Navbar() {
         {/* Links to different routes */}
         <Link to="/Personal-Website">Home</Link>
         <Link to="/Personal-Website/projects">Projects</Link>
-        <Link to="Personal-Website/education">Education</Link>
+        <Link to="Personal-Website/experience">Experience</Link>
       </div>
     </div>
   );

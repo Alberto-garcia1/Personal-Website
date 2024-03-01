@@ -21,7 +21,7 @@ export const ProjectList = [
   name: "Rosie Bake Me A Cake",
   image: BakeMeACake, // Importing the image
   skills: "HTML, CSS, JavaScript, React, ReactStrap, Material UI",
-  link: "https://alberto-garcia1.github.io/just-cake/", // Link to the Just Cake WebPage
+  link: "www.rosiebakemeacake.com", // Link to the Just Cake WebPage
   },
   {
     name: "Nucamp Campsite",

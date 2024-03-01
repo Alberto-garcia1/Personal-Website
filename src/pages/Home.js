@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
-import ProfilePic from "../assets/ProfilePic.jpg";
+// import ProfilePic from "../assets/ProfilePic.jpg";
+import Logo from "../assets/Logo.png";
 
 function Home() {
   // Style for the profile picture
@@ -12,7 +13,7 @@ function Home() {
   return (
     <div className="home">
       {/* Profile picture */}
-      <img src={ProfilePic} alt="Profile" style={imageStyle} />
+      <img src={Logo} alt="Profile" style={imageStyle} />
       <div className="about">
         <h2>Hello My Name Is Alberto</h2>
         <div className="prompt">

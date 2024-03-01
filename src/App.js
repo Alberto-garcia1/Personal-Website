@@ -2,10 +2,10 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Education from "./pages/Education";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
+import Experience from "./pages/Experience";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
             element={<ProjectDisplay />}
           />
           {/* Route for the Education page */}
-          <Route path="/Personal-Website/education" element={<Education />} />
+          <Route path="/Personal-Website/experience" element={<Experience />} />
         </Routes>
         {/* Footer component to provide footer information */}
         <Footer />

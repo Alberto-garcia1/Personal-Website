@@ -5,10 +5,11 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from '@mui/icons-material/School';
+import WorkHistoryOutlinedIcon from '@mui/icons-material/WorkHistoryOutlined';
 
-function Education() {
+function Experience() {
   // Array containing education data
-  const educationData = [
+  const experienceData = [
     {
       date: "January 2023 - May 2023",
       institution: "Pueblo Community College, Colorado",
@@ -19,13 +20,18 @@ function Education() {
       institution: "Nucamp Coding Bootcamp",
       certification: "Front-End Web Development with Google Cloud",
     },
+    {
+      date: "Febuary 2024 - Present",
+      occupation: "Freelance Web Developer",
+      certification: "Front-End Web Development with Google Cloud",
+    },
   ];
 
   return (
     <div className="experience">
       {/* Vertical timeline to display education history */}
-      <VerticalTimeline lineColor="#3e497a">
-        {educationData.map((item, index) => (
+      <VerticalTimeline lineColor="#272727">
+        {experienceData.map((item, index) => (
           <VerticalTimelineElement
             key={index}
             // Add even/odd class for alternating timeline elements
@@ -33,7 +39,7 @@ function Education() {
               index % 2 === 0 ? 'even' : 'odd'
             }`}
             date={item.date} // Display date
-            iconStyle={{ background: '#3e497a', color: '#fff' }} // Style for the timeline icon
+            iconStyle={{ background: '#272727', color: '#fff' }} // Style for the timeline icon
             icon={<SchoolIcon />} // Icon for education events
           >
             <h3 className="vertical-timeline-element-title">{item.institution}</h3>
@@ -45,4 +51,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default Experience;
