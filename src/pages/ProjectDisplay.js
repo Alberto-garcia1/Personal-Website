@@ -27,6 +27,9 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
+      <p>
+        <b>Type:</b> {project.type}
+      </p>
     </div>
   );
 }
