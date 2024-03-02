@@ -17,12 +17,14 @@ function Home() {
       <video src={Logo} alt="Profile" style={videoStyle} autoPlay loop muted/>
       </div>
       <div className="about">
-        <h2>Hello My Name Is Alberto</h2>
+        <h2 className="welcome">Hello, Welcome To My Website</h2>
         <div className="prompt">
           {/* Description about yourself */}
           <p>
-            A software developer with a passion for learning and creating
-            beautiful websites.
+          I'm Alberto and I'm a Front-end Developer. I love to create
+          beautiful and performant products with delightful user experiences.
+          Currently, I'm focused on building responsive web
+          applications.
           </p>
         </div>
       </div>
@@ -33,7 +35,7 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Redux, HTML, CSS, React Native, Bootstrap, NPM,
+              HTML, CSS, ReactJS, Redux, React Native, Bootstrap, NPM,
               MaterialUI, Firebase
             </span>
           </li>

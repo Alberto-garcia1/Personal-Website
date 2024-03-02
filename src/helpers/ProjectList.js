@@ -8,7 +8,7 @@ export const ProjectList = [
   {
     name: "Keep App",
     image: KeeperApp, // Importing the image for the Keeper App
-    skills: "HTML, CSS, JavaScript",
+    skills: "HTML, CSS, JavaScript, UI/UX",
     link: "https://alberto-garcia1.github.io/keeper-app/", // Link to the Keeper App project
   },
   {
@@ -20,7 +20,7 @@ export const ProjectList = [
   {
   name: "Rosie Bake Me A Cake",
   image: BakeMeACake, // Importing the image
-  skills: "HTML, CSS, JavaScript, React, ReactStrap, Material UI, DNS from SquareSpace",
+  skills: "HTML, CSS, JavaScript, React, ReactStrap, Material UI, DNS from SquareSpace UI/UX",
   link: "www.rosiebakemeacake.com", // Link to the Just Cake WebPage
   },
   {
