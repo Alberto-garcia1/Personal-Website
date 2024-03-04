@@ -10,7 +10,7 @@ function Footer() {
       <div className="socialMedia">
         {/* Instagram link */}
         <a
-          href="https://www.instagram.com/alberto.g8/"
+          href="https://www.instagram.com/echoes_of_a_quill/"
           target="_blank"
           rel="noopener noreferrer"
         >
