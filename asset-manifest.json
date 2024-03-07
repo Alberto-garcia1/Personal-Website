@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.20aef6fc.css",
-    "main.js": "/Personal-Website/static/js/main.55260e0f.js",
+    "main.js": "/Personal-Website/static/js/main.d6101547.js",
     "static/media/NucampSite.png": "/Personal-Website/static/media/NucampSite.c01de2dcfd488a036966.png",
+    "static/media/Calculator.png": "/Personal-Website/static/media/Calculator.7c1cf23633ff7f8457f8.png",
     "static/media/background 1.jpg": "/Personal-Website/static/media/background 1.630ef6a575bacf5cd524.jpg",
     "static/media/WeatherApp.png": "/Personal-Website/static/media/WeatherApp.0e8bd83a05b66ccbbea8.png",
     "static/media/KeeperApp.png": "/Personal-Website/static/media/KeeperApp.98f32d11cb48975f10bd.png",
@@ -10,10 +11,10 @@
     "static/media/Logo.mp4": "/Personal-Website/static/media/Logo.c9871299a6867a9a2cd7.mp4",
     "index.html": "/Personal-Website/index.html",
     "main.20aef6fc.css.map": "/Personal-Website/static/css/main.20aef6fc.css.map",
-    "main.55260e0f.js.map": "/Personal-Website/static/js/main.55260e0f.js.map"
+    "main.d6101547.js.map": "/Personal-Website/static/js/main.d6101547.js.map"
   },
   "entrypoints": [
     "static/css/main.20aef6fc.css",
-    "static/js/main.55260e0f.js"
+    "static/js/main.d6101547.js"
   ]
 }
